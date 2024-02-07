@@ -1,0 +1,29 @@
+valores = []
+
+for i in range (0,5,1):
+    x = int(input('Digite o valor x:'))
+    valores.append(x) ##adição de xnumeros na lista e populando
+print(f'O maior valor é: {len(valores)}')
+
+
+
+##print('Lista de Nomes para Formatura')
+
+
+##alunos = []
+
+
+##for i in range(0, 5, 1):
+  ##  nome = input('Digite o nome do formando: ')
+    ##alunos.append(nome)
+
+
+##print('Os formandos são:')
+
+
+'''
+for i in range(0, 5, 1):
+    print(alunos[i])
+'''
+##for aluno in alunos:
+ ##   print(aluno)
