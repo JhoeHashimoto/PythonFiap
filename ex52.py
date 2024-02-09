@@ -23,8 +23,8 @@ else:
         matriz.append([])
 
 #para cada sublista"coluna" adicione 1 elemento
-    for l in range(0, xl, 1):
-        for c in range(0, xc, 1):
-            matriz[xl][xc] = int(input("Digite um valor para a posição :"))
-
+    for l in range(xl):
+        for c in range(xc):
+            valor = int(input(f"Digite um valor para a posição ({l+1}, {c+1}): "))
+            matriz[l].append(valor)
    
