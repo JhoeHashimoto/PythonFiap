@@ -6,6 +6,7 @@
 #Perguntar ao usuário, se deseja ou não fazer nova consulta.
 matriz = [[]]
 
+
 xl = int(input("Digite a quantidade de linhas que a matriz irá ter: "))
 xc = int(input("Digite a quantidade de colunas que a matriz deverá ter: "))
 
@@ -36,7 +37,7 @@ else:
     while True:
         resposta=input("Gostaria de consultar a posição do elemento? (S/N)").upper()
 
-        if resposta == 'S':
+        if resposta == ('S'):
 
             valor_procurado = int(input("Digite o valor a ser retornado o indice: "))
             for l in range(xl):
